@@ -1,0 +1,103 @@
+@media (max-width: 767px) {
+    html, body {
+        /* -- Block Size -- */
+        width: 100%;
+        height: 140%;
+    }
+    /* -- Body's wrapper container -- */
+    .wrapper {
+        width: 100%;
+        height: 120%;
+    }
+    /* -- Main bounding container -- */
+    .main-wrapper {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    /* -- Main Top side: Basic content located here -- */
+    /* -- Basic content container -- */
+    .content {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    /* -- Basic container -- */
+    .basic {
+        width: 100%;
+        height: 70%;
+    }
+    /* -- Basic Wallpaper -- */
+    .basic-wall {
+        width: 95%;
+        height: 50%;
+        background-image: url('../css/wallpaper/main-mobile.jpg');
+    }
+    /* -- Basic Description container -- */
+    .basic-desc {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+    }
+    /* -- Description Head -- */
+    .desc-head {
+        width: 100%;
+        height: 25%;
+    }
+    /* -- Description Text -- */
+    .desc-txt {
+        width: 100%;
+        height: 60%;
+    }
+    /* -- News container -- */
+    .news {
+        width: 100%;
+        height: 70%;
+    }
+    /* -- New container -- */
+    .new {
+        /* -- Block Size -- */
+        width: 90%;
+        height: 30%;
+    }
+    /* -- Main Bottom side: Other content located here -- */
+    /* -- Sidebar: Other content container -- */
+    .sidebar {
+        margin-top: 30px;
+        /* -- Block Size -- */
+        width: 100%;
+        height: 35%;
+        /* -- Display -- */
+        display: flex;
+        flex-direction: column;
+    }
+    /* -- Sidebar: Content container -- */
+    .side-cont {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 100%;
+        height: 30%;
+        /* -- Display -- */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    /* -- Sidebar Description -- */
+    .side-desc {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 60%;
+        height: 30%;
+        /* -- Display -- */
+        display: flex;
+        flex-direction: column;
+    }
+    /* -- Navigation Bar container -- */
+}

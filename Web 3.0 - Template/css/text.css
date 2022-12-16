@@ -1,0 +1,210 @@
+/* -- This file will contain styles for the text and title -- */
+/* -- Description head: located in Basic content description -- */
+.desc-h {
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 0px;
+    padding: 0;
+    /* -- Font -- */
+    font-size: 60px;
+    font-weight: 2000;
+    font-family: 'Inter', sans-serif;
+}
+/* -- Description text: located in Basic content description -- */
+.desc-p {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    /* -- Font -- */
+    font-size: 22px;
+    font-weight: ease;
+    /* -- Color -- */
+    color: gray;
+}
+
+/* -- News head container: located in News container -- */
+.news-head {
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+    padding: 0px;
+    /* -- Font -- */
+    font-size: 40px;
+    /* -- Color -- */
+    color: #e6aa48;
+}
+/* -- New: description: located in News block container -- */
+.new-txt {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 0px;
+    /* -- Font -- */
+    font-size: 20px;
+    /* -- Color -- */
+    color: gray;
+}
+
+/* -- Sidebar Description: located in Sidebar Content container */
+/* -- Sidebar Description: Head -- */
+.side-h {
+    margin-top: 10px;
+    margin-left: 22px;
+    margin-bottom: 5px;
+    padding: 0;
+    /* -- Color -- */
+    color: rgb(170, 170, 170);
+    /* -- Font -- */
+    font-size: 50px;
+}
+/* -- Sidebar Description: Text -- */
+.side-p {
+    margin-top: 20px;
+    margin-left: 22px;
+    padding: 0px;
+    /* -- Font -- */
+    font-size: 22px;
+    /* -- Color -- */
+    color: gray;
+}
+
+/* -- Notebooks Responsive Style for Header container -- */
+@media (max-width: 1440px) {
+    /* -- Description head: located in Basic content description -- */
+    .desc-h {
+        /* -- Font -- */
+        font-size: 46px;
+    }
+    /* -- Description text: located in Basic content description -- */
+    .desc-p {
+        /* -- Font -- */
+        font-size: 18px;
+    }
+    /* -- Sidebar Description: Head -- */
+    .side-h {
+        /* -- Font -- */
+        font-size: 30px;
+    }
+    /* -- Sidebar Description: Text -- */
+    .side-p {
+        /* -- Font -- */
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1366px) {
+    /* -- Description head: located in Basic content description -- */
+    .desc-h {
+        margin-right: 50px;
+        /* -- Font -- */
+        font-size: 42px;
+    }
+    /* -- Description text: located in Basic content description -- */
+    .desc-p {
+        /* -- Font -- */
+        font-size: 16px;
+    }
+    /* -- News head container: located in News container -- */
+    .news-head {
+        margin-top: 20px;
+        margin-left: 25px;
+        margin-bottom: 10px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 30px;
+        /* -- Color -- */
+        color: #e6aa48;
+    }
+    /* -- New: description: located in News block container -- */
+    .new-txt {
+        margin-top: 10px;
+        margin-left: 5px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 20px;
+        /* -- Color -- */
+        color: gray;
+    }
+    /* -- Sidebar Description: Head -- */
+    .side-h {
+        margin-top: 5px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+        padding: 0;
+        /* -- Font -- */
+        font-size: 24px;
+    }
+    /* -- Sidebar Description: Text -- */
+    .side-p {
+        margin-top: 15px;
+        margin-left: 0px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 16px;
+    }
+}
+
+/* -- Mobiles Responsive Style for Text & Title -- */
+@media (max-width:767px) {
+    /* -- Basic content: Description container -- */
+    /* -- Description Head -- */
+    .desc-h {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 0px;
+        padding: 0;
+        /* -- Font -- */
+        font-size: 42px;
+    }
+    /* -- Description Text -- */
+    .desc-p {
+        margin-top: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 0px;
+        /* -- Font -- */
+        font-size: 25px;
+    }
+    /* -- Basic content: News container -- */
+    /* -- News head container: located in News container -- */
+    .news-head {
+        margin-top: 20px;
+        margin-left: 35px;
+        margin-bottom: 10px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 60px;
+        /* -- Color -- */
+        color: #e6aa48;
+    }
+    /* -- New: description: located in News block container -- */
+    .new-txt {
+        margin-top: 20px;
+        margin-left: 5px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 25px;
+        /* -- Color -- */
+        color: gray;
+    }
+    /* -- Sidebar Description: located in Sidebar Content container */
+    /* -- Sidebar Description: Head -- */
+    .side-h {
+        margin-top: 10px;
+        margin-left: 22px;
+        margin-bottom: 5px;
+        padding: 0;
+        /* -- Color -- */
+        color: rgb(170, 170, 170);
+        /* -- Font -- */
+        font-size: 70px;
+    }
+    /* -- Sidebar Description: Text -- */
+    .side-p {
+        margin-top: 10px;
+        margin-left: 22px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 25px;
+        /* -- Color -- */
+        color: gray;
+    }
+}

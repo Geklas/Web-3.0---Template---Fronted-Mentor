@@ -1,0 +1,204 @@
+/* -- This file will contain styles for buttons and links -- */
+/* --  Navigation buttons: located in Header container -- */
+.navbar-btn {
+    margin: 15px;
+    padding: 3px;
+    /* -- Color & Backgorund -- */
+    color: gray;
+    background-color: white;
+    /* -- Decoration -- */
+    border: none;
+    cursor: pointer;
+    /* -- Font -- */
+    font-size: 30px;
+    font-weight: 400;
+    /* -- Other -- */
+    transition: 1s ease;
+}
+/* -- :Hover -- */
+.navbar-btn:hover {
+    transition: 1s ease;
+    color: #e76155;
+}
+/* -- Navbar Burger button -- */
+.navbar-burger {
+    margin: 0 auto;
+    padding: 0px;
+    /* -- Decoration -- */
+    border: none;
+    cursor: pointer;
+    /* -- Block Size -- */
+    width: 70%;
+    height: 100%;
+    /* -- Color -- */
+    background-color: white;
+    /* -- Display -- */
+    display: flex;
+    align-items: center;
+}
+/* -- Description button: located in Description text container -- */
+.desc-btn {
+    margin: 0px;
+    padding: 20px;
+    /* -- Block Size -- */
+    width: 50%;
+    height: auto;
+    /* -- Color & Backgorund -- */
+    color: white;
+    background-color: #f45b53;
+    /* -- Font -- */
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    /* -- Decoration -- */
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 1s ease;
+}
+/* -- :Hover -- */
+.desc-btn:hover {
+    transition: 1s ease;
+    background-color: #00001a;
+}
+/* -- New links: located in News container -- */
+/* -- New: head & link -- */
+.new-head {
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    padding: 0px;
+    /* -- Font -- */
+    font-size: 25px;
+    font-weight: 600;
+    /* -- Color -- */
+    color: white;
+    /* -- Decoration -- */
+    text-decoration: none;
+    cursor: pointer;
+    /* -- Other -- */
+    transition: 1s ease;
+}
+/* -- :Hover -- */
+.new-head:hover {
+    transition: 1s ease;
+    color: #df9318;
+}
+/* -- Sidebar Links: located in Sidebar Description -- */
+.side-l {
+    margin-top: 15px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+    padding: 0px;
+    /* -- Font -- */
+    font-size: 26px;
+    font-weight: bold;
+    /* -- Color -- */
+    color: black;
+    /* -- Decoration -- */
+    text-decoration: none;
+    cursor: pointer;
+    /* -- Other -- */
+    transition: 1s ease;
+}
+/* -- :Hover -- */
+.side-l:hover {
+    transition: 1s ease;
+    color: #e76155;
+}
+
+/* -- Notebooks Responsive Style for Header container -- */
+@media (max-width: 1440px) {
+    /* --  Navigation buttons: located in Header container -- */
+    .navbar-btn {
+        /* -- Font -- */
+        font-size: 20px;
+        font-weight: 400;
+    }
+    /* -- Description button: located in Description text container -- */
+    .desc-btn {
+        /* -- Block Size -- */
+        width: 50%;
+        height: auto;
+        /* -- Font -- */
+        font-size: 18px;
+    }
+    /* -- Sidebar Links: located in Sidebar Description -- */
+    .side-l {
+        /* -- Font -- */
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1366px) {
+    /* --  Navigation buttons: located in Header container -- */
+    .navbar-btn {
+        /* -- Font -- */
+        font-size: 19px;
+        font-weight: 400;
+    }
+    /* -- Description button: located in Description text container -- */
+    .desc-btn {
+        margin: 0px;
+        padding: 10px;
+        /* -- Block Size -- */
+        width: 50%;
+        height: auto;
+        /* -- Font -- */
+        font-size: 16px;
+    }
+    /* -- New links: located in News container -- */
+    /* -- New: head & link -- */
+    .new-head {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 20px;
+    }
+    /* -- Sidebar Links: located in Sidebar Description -- */
+    .side-l {
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        padding: 0px;
+        /* -- Font -- */
+        font-size: 18px;
+    }
+}
+
+/* -- Mobiles Responsive Style for Buttons & Links -- */
+@media (max-width:767px) {
+    /* --  Navigation buttons: located in Header container -- */
+    .navbar-btn {
+        display: none;
+    }
+    /* -- Description button: located in Description text container -- */
+    .desc-btn {
+        margin-left: 15px;
+        padding: 20px;
+        /* -- Block Size -- */
+        width: 40%;
+        height: 30%;
+        /* -- Font -- */
+        font-size: 25px;
+    }
+    /* -- New links: located in News container -- */
+    /* -- New: head & link -- */
+    .new-head {
+        /* -- Font -- */
+        font-size: 40px;
+    }
+    /* -- New: head & link -- */
+    .new-head {
+        /* -- Font -- */
+        font-size: 25px;
+    }
+    /* -- Sidebar Links: located in Sidebar Description -- */
+    .side-l {
+        /* -- Font -- */
+        font-size: 31px;
+    }
+}

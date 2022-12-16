@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Title container -->
+        <title>Web 3.0 - Template | Frontend Mentor - Template</title>
+        <!-- Meta container -->
+        <meta charset="utf-8">
+            <!-- Responsive encoding: Disable page zoom for users -->
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+            <!-- IPhone encoding: Disable automatic generation link on phone numbers -->
+            <meta name="format-detection" content="telephone=no">
+            <!-- SEO encoding container -->
+                <!-- SEO Description: Up to 140 characters allowed -->
+                <meta name="description" content="">
+                <!-- SEO Keywords: Up to 20 words allowed-->
+                <meta name="keywords" content="">
+                <!-- SEO Robots: Admission of search engine robots -->
+                <meta name="robots" content="">
+            <!-- Technical encoding container -->
+                <!-- Technical: Author -->
+                <meta name="Author" content="Frontend Mentor">
+                <!-- Technical: Copyrights -->
+                <meta name="Copyright" content="Frontend Mentor &copy;">
+                <!-- Technical: Author's Address -->
+                <meta name="Address" content=" ">
+        <!-- CSS container -->
+            <!-- Basic Style container -->
+            <link rel="stylesheet" type="text/css" href="css/header.css">
+            <link rel="stylesheet" type="text/css" href="css/index.css">
+            <!-- Responsive container -->
+            <link rel="stylesheet" type="text/css" href="css/notebooks.css">
+            <link rel="stylesheet" type="text/css" href="css/mobiles.css">
+            <!-- Other Style container -->
+            <link rel="stylesheet" type="text/css" href="css/font.css">
+            <link rel="stylesheet" type="text/css" href="css/text.css">
+            <link rel="stylesheet" type="text/css" href="css/buttons.css">
+        <!-- Icon container -->
+        <link rel="shortcut icon" type="image/png" href="css/icon/FM-logo.png">
+    </head>
+    <body>
+        <!-- Bounding container: necessary for setting the correct responsive -->
+        <div class="wrapper">
+            <!-- Header container: logotype and navigation bar will be located here -->
+            <!-- Header container -->
+            <header class="header">
+                <!-- Header bounding container -->
+                <div class="header-wrapper">
+                    <!-- Logotype container -->
+                    <logo class="logotype">
+                        <img  class="logo" src="css/icon/logo.svg">
+                    </logo>
+                    <!-- Navigation burger container -->
+                    <div class="navbar-menu">
+                        <button class="navbar-burger" onclick="myFunction()"><img src="css/icon/menu-open.svg"></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <button class="navbar-btn">Home</button>
+                            <button class="navbar-btn">New</button>
+                            <button class="navbar-btn">Popular</button>
+                            <button class="navbar-btn">Trending</button>
+                            <button class="navbar-btn">Categories</button>
+                        </div>
+                    </div>
+                    <!-- Navigation Bar container -->
+                    <nav class="navbar">
+                        <button class="navbar-btn">Home</button>
+                        <button class="navbar-btn">New</button>
+                        <button class="navbar-btn">Popular</button>
+                        <button class="navbar-btn">Trending</button>
+                        <button class="navbar-btn">Categories</button>
+                    </nav>
+                </div>
+            </header>
+            <!-- Main container: the main content of the page will be located here -->
+            <!-- Main container -->
+            <main class="main">
+                <!-- Main bounding container -->
+                <div class="main-wrapper">
+                    <!-- Content: Baisc content container -->
+                    <content class="content">
+                        <!-- Main content container -->
+                        <basic class="basic">
+                            <!-- Basic content wallpaper -->
+                            <div class="basic-wall"></div>
+                            <!-- Basic content description -->
+                            <div class="basic-desc">
+                                <!-- Description head container -->
+                                <div class="desc-head">
+                                    <h2 class="desc-h">The Bright Future of Web 3.0?</h2>
+                                </div>
+                                <!-- Description text container -->
+                                <div class="desc-txt">
+                                    <p class="desc-p">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfiling its promise?</p>
+                                    <button class="desc-btn">Read More</button>
+                                </div>
+                            </div>
+                        </basic>
+                        <!-- News container -->
+                        <news class="news">
+                            <!-- News head container -->
+                            <h1 class="news-head">New</h1>
+                            <!-- News block container -->
+                            <!-- New: First -->
+                            <div class="new" id="first">
+                                <!-- New: head & link -->
+                                <a class="new-head" href="#">Hydrogen VS Electric Cars</a>
+                                <!-- New: description -->
+                                <p class="new-txt">Will hydrogen-fueled cars ever catch up to EVs?</p>
+                            </div>
+                            <!-- New: Second -->
+                            <div class="new" id="second">
+                                <!-- New: head & link -->
+                                <a class="new-head" href="#">The Downsides of AI Artistry</a>
+                                <!-- New: description -->
+                                <p class="new-txt">What are the possible adverse effects of on-demand AI image generation?</p>
+                            </div>
+                            <!-- New: Third -->
+                            <div class="new" id="third">
+                                <!-- New: head & link -->
+                                <a class="new-head" href="#">Is VC Funding Drying Up?</a>
+                                <!-- New: description -->
+                                <p class="new-txt">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+                            </div>
+                        </news>
+                    </content>
+                    <!-- Sidebar: Other content container -->
+                    <sidebar class="sidebar">
+                        <!-- Sidebar content container -->
+                        <div class="side-cont" id="one">
+                            <!-- Sidebar Wallpaper -->
+                            <div class="side-wall">
+                                <img src="css/wallpaper/news-pc.jpg">
+                            </div>
+                            <!-- Sidebar Description -->
+                            <div class="side-desc">
+                                <!-- Description Head -->
+                                <h1 class="side-h">01</h1>
+                                <!-- Description Text -->
+                                <a class="side-l" href="#">Reviving Retro PCs</a>
+                                <p class="side-p">What happens when old PCs are given modern upgrades?</p>
+                            </div>
+                        </div>
+                        <!-- Sidebar content container -->
+                        <div class="side-cont" id="two">
+                            <!-- Sidebar Wallpaper -->
+                            <div class="side-wall">
+                                <img src="css/wallpaper/news-laptop.jpg">
+                            </div>
+                            <!-- Sidebar Description -->
+                            <div class="side-desc">
+                                <!-- Description Head -->
+                                <h1 class="side-h">02</h1>
+                                <!-- Description Text -->
+                                <a class="side-l" href="#">Top 10 Laptops of 2022</a>
+                                <p class="side-p">Our best picks for various needs and budgets.</p>
+                            </div>
+                        </div>
+                        <!-- Sidebar content container -->
+                        <div class="side-cont" id="three">
+                            <!-- Sidebar Wallpaper -->
+                            <div class="side-wall">
+                                <img src="css/wallpaper/news-gamin.jpg">
+                            </div>
+                            <!-- Sidebar Description -->
+                            <div class="side-desc">
+                                <!-- Description Head -->
+                                <h1 class="side-h">03</h1>
+                                <!-- Description Text -->
+                                <a class="side-l" href="#">The Growth of Gaming</a>
+                                <p class="side-p">How the pandemic has sparked fresh opportunities.</p>
+                            </div>
+                        </div>
+                    </sidebar>
+                </div>
+            </main>
+        </div>
+        <!-- JavaScript container -->
+        <script src="js/button.js"></script>
+    </body>
+</html>

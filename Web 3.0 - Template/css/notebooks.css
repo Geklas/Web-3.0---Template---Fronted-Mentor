@@ -1,0 +1,84 @@
+@media (max-width: 1440px) {
+    html, body {
+        /* -- Block Size -- */
+        width: 100%;
+        height: 100%;
+    }
+    /* -- New container -- */
+    .new {
+        /* -- Block Size -- */
+        width: 90%;
+        height: 25%;
+    }
+}
+
+@media (max-width: 1366px) {
+    html, body {
+        /* -- Block Size -- */
+        width: 100%;
+        height: 100%;
+    }
+    /* -- Main container -- */
+    .main {
+        margin: 0 auto;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 100%;
+        height: 100%;
+    }
+    /* -- Main bounding container -- */
+    .main-wrapper {
+        /* -- Block Size -- */
+        width: 90%;
+        height: 100%;
+    }
+    /* -- Main Top side: Basic content located here -- */
+    /* -- Basic content container -- */
+    .content {
+        /* -- Block Size -- */
+        width: 100%;
+        height: 70%;
+    }
+    /* -- Basic container -- */
+    .basic {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: 65%;
+        height: 100%;
+        /* -- Display -- */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* -- Other -- */
+    }
+    /* -- Main Bottom side: Other content located here -- */
+    /* -- Sidebar: Other content container -- */
+    .sidebar {
+        /* -- Block Size -- */
+        width: 100%;
+        height: 35%;
+    }
+    /* -- Sidebar Wallpaper -- */
+    .side-wall {
+        margin: 0;
+        padding: 0;
+        /* -- Block Size -- */
+        width: auto;
+        height: 90%;
+        /* -- Other -- */
+        align-items: center;
+    }
+    img {
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+    }
+    /* -- New container -- */
+    .new {
+        /* -- Block Size -- */
+        width: 90%;
+        height: 25%;
+    }
+}
+
